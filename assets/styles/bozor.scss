@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$bozor-primary: mat-palette($mat-grey, 50, 700, 100);
+
+$bozor-accent:  mat-palette($mat-orange, A700);
+
+$bozor-warn:    mat-palette($mat-red, 500);
+
+
+$bozor-theme: mat-light-theme($bozor-primary, $bozor-accent, $bozor-warn);
+
+@include angular-material-theme($bozor-theme);
