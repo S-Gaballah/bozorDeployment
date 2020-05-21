@@ -39,7 +39,11 @@ section:before {
   visibility: hidden; 
 }
 .mat-list-item{
-  color: ghostwhite !important;
+  // color: ghostwhite !important;
+}
+
+.mat-list-item :hover{
+  // color: mat-color($bozor-accent, 700); ;
 }
 
 /* ------ icons -------- */
