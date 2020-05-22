@@ -1,92 +1,141 @@
-@import '~@angular/material/theming';
-@import 'bozor.scss';
-@import 'animation/nglp-animations.scss';
+@import "~@angular/material/theming";
+@import "bozor.scss";
+@import "animation/nglp-animations.scss";
 
+// $secondaryColor: #fbaa1b;
+$secondaryColor: #ee8b42;
 
-html {
-  scroll-behavior: smooth;
+// background-image: linear-gradient(to right top,#a4de8e,#87d593,#6bcb99,#4fc09e,#33b5a2,#05adac,#00a4b4,#009ab7,#0090c2,#0084cd,#0076d3,#0064d2);
+// background-image: linear-gradient(90deg,#000000 0%,#005C96 100%);
+
+// sociak link container
+// border-radius: 30px;
+// border: 1px solid #fff;
+// text-align: center;
+// margin-bottom: 1.5rem;
+// width: 41px;
+// height: 41px;
+
+.carousel, .carousel-indicators {
+  button {
+    background-color: hsla(0, 0%, 100%, 0.75) !important;
+
+    span{
+      mat-icon{
+        color: #333;
+      }
+    }
+  };
+
+  button[ng-reflect-disabled=true]{
+    background-color: $secondaryColor !important;
+  }
  
 }
 
-a.anchor:hover {
-  color: mat-color($bozor-accent, 700);;
+@font-face {
+  font-family: Goldplay;
+  src: url("../fonts/Latinotype-Goldplay-Light.otf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fabIcon,
+.text-muted,
+a.anchor:hover,
+.material-icons,
+.about-hover-effect i
+ {
+  color: $secondaryColor;
+}
+
+.tile-items > svg {
+  fill: $secondaryColor;
+}
+
+.navigation-list > a:after {
+  background: $secondaryColor !important;
+}
+
+// a.anchor:hover {
+//   color: $secondaryColor;
+// }
 
 /* ------ scroll off -------- */
 
-.scrollOff{
-	overflow: hidden !important;
+.scrollOff {
+  overflow: hidden !important;
 }
 
 /* ------ section -------- */
 
-section{
-	margin-top: 75px;
-  margin-bottom: 75px; 
-  background-color: ghostwhite;
+section {
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
-// mat-sidenav-content:nth-child(odd){
-//   background-color: red;
-// }
 
-
-
-section:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -75px; 
-  height: 75px; 
-  visibility: hidden; 
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
 }
-.mat-list-item{
+.mat-list-item {
   // color: ghostwhite !important;
 }
 
-.mat-list-item :hover{
+.mat-list-item :hover {
   // color: mat-color($bozor-accent, 700); ;
 }
 
 /* ------ icons -------- */
 
-.material-icons {
-  color: mat-color($bozor-accent, 700);
-}
+// .material-icons {
+//   color: $secondaryColor;
+// }
 
-.text-muted{
-  color: mat-color($bozor-accent, A700);
-}
+// .text-muted {
+//   color: mat-color($bozor-accent, A700);
+// }
 
 /* ------ navigation -------- */
 
-.navigation-toolbar {
-  // background-color: mat-color($bozor-primary);
-  background-color: #157195;
-}
+// .navigation-toolbar {
+//   background-color: mat-color($bozor-primary);
+//   font-family: Goldplay, Sans-serif;
+//   // background-color: #157195;
+// }
+
+// .mat-drawer-container{
+//     background-color: transparent;
+// }
 
 /* ------ mobile logo -------- */
 
-#mobilelogo{
+#mobilelogo {
   margin-top: 56px;
 }
 
 /* ------ about hover effect -------- */
 
-.about-hover-effect{
+.about-hover-effect {
   @include mat-elevation-transition;
   @include mat-elevation(8);
 }
 
-.about-hover-effect .mat-card{
+.about-hover-effect .mat-card {
   background-color: mat-color($bozor-accent, 100);
 }
 
-.about-hover-effect i{
-  color: mat-color($bozor-accent, A700);
-}
-
+// .about-hover-effect i {
+//   color: mat-color($bozor-accent, A700);
+// }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
-} 
+  html {
+    scroll-behavior: auto;
+  }
+}
