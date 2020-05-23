@@ -51,6 +51,10 @@ a.anchor:hover,
   color: $secondaryColor;
 }
 
+.fabIcon:hover {
+ color: #333;
+}
+
 .tile-items > svg {
   fill: $secondaryColor;
 }

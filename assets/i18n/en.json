@@ -1,0 +1,68 @@
+{
+    "app":{
+        "title":"Bozor Industrial Foods",
+        "lang":"عربي"
+    },
+    "about":{
+        "title":"About",
+        "description":"Bozor is a food manufacturing and packaging startup company established at 2020",
+        "manufactureTitle":"Manufacture to others",
+        "manufactureDesc":"We offer manufacturing and packagind for your own brand with competitive prices."
+    },
+    "products":{
+        "title":"Our Products",
+        "description":"Because we care about your health and your children's health, we provides a hight quality products.",
+        "tahini":{
+            "title":"Tahini",
+            "description":"Made from pure sesame seeds. High in fiber, protein, and contains alot of important vitamins and minerals."
+        },
+        "molasses":{
+            "title":"Molasses",
+            "description":"Extracted from sugarcane and thermally treated. Nataural source of Iron, Calcium, Potassium, and Magnesium"
+        },
+        "vinegar":{
+            "title":"Vinegar",
+            "description":"comprised of acetic acid (5%) which yields incredibly clean, crisp, strong taste"
+        }
+    },
+    "values":{
+        "title":"Our Values",
+        "integrity":{
+            "title":"Integrity",
+            "description":"Committed to doing the right thing."
+        },
+        "excellence":{
+            "title":"Excellence",
+            "description":"In everything we do."
+        },
+        "teamwork":{
+            "title":"Teamwork",
+            "description":"Working as one, to help our customers succeed."
+        },
+        "inclusiveness":{
+            "title":"Inclusiveness",
+            "description":"Creating an open, diverse and respectful environment."
+        },
+        "responsibility":{
+            "title":"Responsibility",
+            "description":"Accountable to our associates, customers and communities."
+        }
+    },
+    "distributor":{
+        "title":"Join our community",
+        "description":"We are passionately committed to the success of every customer, supplier partner, community and associate"
+    },
+    "form":{
+        "name":"Please enter your name ",
+        "phone":"Please enter your phone ",
+        "email":"Please enter your email ",
+        "submit":"Submit",
+        "errors":{
+            "validEmail":"Please enter a valid email address",
+            "requiredMail":"Email is <strong>required</strong>",
+            "requiredName":"Name is <strong>required</strong>",
+            "requiredPhone":"Phone is <strong>required</strong>"
+        }
+    }
+    
+}
