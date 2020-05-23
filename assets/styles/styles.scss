@@ -27,10 +27,12 @@ $secondaryColor: #ee8b42;
     }
   };
 
-  button[ng-reflect-disabled=true]{
-    background-color: $secondaryColor !important;
-  }
+
  
+}
+
+button[ng-reflect-disabled=true], button[type=submit]{
+  background-color: $secondaryColor !important;
 }
 
 @font-face {
@@ -47,6 +49,7 @@ html {
 a.anchor:hover,
 .material-icons,
 .about-hover-effect i
+
  {
   color: $secondaryColor;
 }
