@@ -26,14 +26,11 @@ $secondaryColor: #ee8b42;
       }
     }
   };
-
-
- 
 }
 
-button[ng-reflect-disabled=true], button[type=submit]{
-  background-color: $secondaryColor !important;
-}
+// button[ng-reflect-disabled=true], button[type=submit]{
+//   background-color: $secondaryColor !important;
+// }
 
 @font-face {
   font-family: Goldplay;
@@ -54,12 +51,16 @@ a.anchor:hover,
   color: $secondaryColor;
 }
 
-.fabIcon:hover {
- color: #333;
+.fabIcon:hover, .material-icons:hover {
+ color: #25779c;
 }
 
 .tile-items > svg {
   fill: $secondaryColor;
+}
+
+.tile-items > svg:hover{
+  fill: #25779c;
 }
 
 .navigation-list > a:after {

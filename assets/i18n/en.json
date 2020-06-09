@@ -45,7 +45,8 @@
         },
         "responsibility":{
             "title":"Responsibility",
-            "description":"Accountable to our associates, customers and communities."
+            "description":"Accountable to our associates, customers and communities.",
+            "successRequest":"Request send, we will contact you soon."
         }
     },
     "distributor":{
@@ -56,6 +57,11 @@
         "name":"Please enter your name ",
         "phone":"Please enter your phone ",
         "email":"Please enter your email ",
+        "address":"Address",
+        "governorate":"Distribution Governorate",
+        "haveStore":"Do you have food storage warehouse",
+        "extraDetails":"leave us a message",
+        "carCount":"Distribution cars count",
         "submit":"Submit",
         "errors":{
             "validEmail":"Please enter a valid email address",
